@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "YZ32KBwEVKA7IVtG7urYI8yTbaX4Q5Gpz4eK9AcAwZ4=",
+  "Source": "MathProject",
+  "BasePath": "_content/MathProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MathProject\\wwwroot",
+      "Source": "MathProject",
+      "ContentRoot": "D:\\Programming\\C#\\MathProject\\wwwroot\\",
+      "BasePath": "_content/MathProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Programming\\C#\\MathProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MathProject.styles.css",
+      "SourceId": "MathProject",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Programming\\C#\\MathProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/MathProject",
+      "RelativePath": "MathProject.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Programming\\C#\\MathProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MathProject.styles.css"
+    },
+    {
+      "Identity": "D:\\Programming\\C#\\MathProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MathProject.bundle.scp.css",
+      "SourceId": "MathProject",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Programming\\C#\\MathProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/MathProject",
+      "RelativePath": "MathProject.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Programming\\C#\\MathProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MathProject.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Programming\\C#\\MathProject\\wwwroot\\css\\styles.css",
+      "SourceId": "MathProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\C#\\MathProject\\wwwroot\\",
+      "BasePath": "_content/MathProject",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "D:\\Programming\\C#\\MathProject\\wwwroot\\index.html",
+      "SourceId": "MathProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\C#\\MathProject\\wwwroot\\",
+      "BasePath": "_content/MathProject",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

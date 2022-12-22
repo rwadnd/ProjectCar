@@ -1,0 +1,7 @@
+D:\Programming\C#\MathProject\obj\Release\net6.0\PubTmp\Out\MathProject.exe
+D:\Programming\C#\MathProject\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Programming\C#\MathProject\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Programming\C#\MathProject\obj\Release\net6.0\PubTmp\Out\MathProject.dll
+D:\Programming\C#\MathProject\obj\Release\net6.0\PubTmp\Out\MathProject.deps.json
+D:\Programming\C#\MathProject\obj\Release\net6.0\PubTmp\Out\MathProject.runtimeconfig.json
+D:\Programming\C#\MathProject\obj\Release\net6.0\PubTmp\Out\MathProject.pdb

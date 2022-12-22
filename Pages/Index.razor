@@ -1,0 +1,52 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+        <div id="TWForm" >
+            <h1>Admiral Triangle</h1>
+            <div class="question">
+                <input type="text" @bind-value=@distance required />
+                <label>Distance</label>
+            </div>
+            <div class="question">
+                <input type="text" @bind-value=@aSpeed required />
+                <label>First Speed</label>
+            </div>
+            <div class="question">
+                <input type="text" @bind-value=@bSpeed required />
+                <label>Second Speed</label>
+            </div>
+            <div class="question">
+                <input type="text" @bind-value=@time required />
+                <label>Time</label>
+            </div>
+
+            <div id="ali2" style="@style" >
+                <label>@result</label>
+            </div>
+            <button id="ali" @onclick="Calc">Solve</button>
+        </div>
+@code{
+    double distance;
+    double aSpeed; 
+    double bSpeed;
+    double time;
+    string result = "";
+    string style = "display: none;";
+
+    void Calc()
+    {
+        var tmp = Functions.Solve(distance, aSpeed, bSpeed, time);
+        if (tmp.Error)
+        {
+            result = "Sorry! " + tmp.ErrorMessage;
+        }
+        else
+        {
+            result = "The Final Result is: " + tmp.Result.ToString("n4");
+        }
+        
+        style = "display: block;";
+        StateHasChanged();
+
+    }
+}
